@@ -15,12 +15,12 @@ API_KEY='********************************'
 ## How to use
 First we have to create a `dist` folder. This can be done be running the command `npm run build-prod`. Once the `dist` folder has been created run the command `npm run start`. This app runs on localhost:8000, navigate to http://localhost:8000/ in your browser.
 
-##UI
+## UI
 !['UI'](/pics/ui.png)
 To use enter an article/blog URL in the form input and click submit. The url will first go through a URL checker to ensure the URL is valid and is in the proper format, if not alert will pop up on screen "invalid url". If the URL is valid the UI will update with the info provided by the API.
 !['UI API response'](/pics/ui_response.png)
 
-##Testing
+## Testing
 All function have been tested using `jest`.
 To run your own text run the command `npm run test`
 !['Jest Test'](/pics/test.png)
