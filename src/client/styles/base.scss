@@ -1,0 +1,25 @@
+body {
+    background-color: #78b7d9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    margin: auto;
+}
+
+section {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+p {
+  color: white;
+  font-style:italic;
+}
+
+.rslt {
+  color: white;
+  font-style:italic;
+}

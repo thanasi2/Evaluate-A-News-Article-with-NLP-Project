@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Test</title>
+        <link rel="stylesheet" href="/styles/base.css">
+        <link rel="stylesheet" href="/styles/header.css">
+        <link rel="stylesheet" href="/styles/form.css">
+        <link rel="stylesheet" href="/styles/footer.css">
+        <link href="https://fonts.googleapis.com/css?family=Gayathri&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+          <h1>Natural Language Processing</h1>
+        </header>
+        <main>
+          <p>This app uses Aylien's Natural Language Processing API to evaluate Articles. To use: Enter a URL below. Make sure the URL starts with "http://www..."<p>
+            <section>
+                <form class="" onsubmit="return Client.handleSubmit(event)">
+                    <input id="name" type="text" name="input" value="" placeholder="Article URL">
+                    <input id="button"type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
+                </form>
+            </section>
+            <section>
+                <h3>Form Results:</h3>
+                <div id="results"></div>
+            </section>
+        </main>
+        <script>
+    // Check that service workers are supported
+          if ('serviceWorker' in navigator) {
+        // Use the window load event to keep the page load performant
+            window.addEventListener('load', () => {
+              navigator.serviceWorker.register('/service-worker.js');
+        });
+    }
+</script>
+    </body>
+</html>
