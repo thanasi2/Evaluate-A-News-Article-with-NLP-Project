@@ -4,6 +4,8 @@
 This project uses Aylien's API to evaluate articles using Natural Language Processing. In this app were are using the API to determine the polarity and Subjectivity of an article.
 
 ## Setup
+Download or clone this project. In your terminal navigate this project folder and run `npm install`.
+
 In order to use this API you must have your own `API_ID` and `API_KEY` from Aylien. Check here for to sign up to receive your creds [Aylien signup](https://developer.aylien.com/signup)
 
 Once you have your creds from Aylien create a `.env` file in your root directory and add your creds in the following format:
