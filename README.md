@@ -6,7 +6,7 @@ This project uses Aylien's API to evaluate articles using Natural Language Proce
 ## Setup
 Download or clone this project. In your terminal navigate to this project folder and run `npm install`.
 
-In order to use this API you must have your own `API_ID` and `API_KEY` from Aylien. Check here for to sign up to receive your creds [Aylien signup](https://developer.aylien.com/signup)
+In order to use this API you must have your own `API_ID` and `API_KEY` from Aylien. Check here to sign up to receive your creds [Aylien signup](https://developer.aylien.com/signup)
 
 Once you have your creds from Aylien create a `.env` file in your root directory and add your creds in the following format:
 ```
@@ -23,6 +23,6 @@ To use enter an article/blog URL in the form input and click submit. The url wil
 !['UI API response'](/pics/ui_response.png)
 
 ## Testing
-All function have been tested using `jest`.
+All functions have been tested using `jest`.
 To run your own text run the command `npm run test`
 !['Jest Test'](/pics/test.png)
