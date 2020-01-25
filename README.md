@@ -1,7 +1,7 @@
 # Udacity's Evaluate News Articles NLP project.
 
 ## About
-This project uses Aylien's API to evaluate articles using Natural Language Processing. In this app were are using the API to determine the polarity and Subjectivity of an article.
+This project uses Aylien's API to evaluate articles using Natural Language Processing. In this app we are using the API to determine the polarity and Subjectivity of an article.
 
 ## Setup
 Download or clone this project. In your terminal navigate to this project folder and run `npm install`.
